@@ -1,0 +1,277 @@
+<resources>
+    <string name="app_name">Vuvaa Energy</string>
+
+    <string name="action_settings">Transaction Log</string>
+    <string name="action_admin">Admin Log</string>
+
+    <!-- Strings related to ebilling -->
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+
+    <string-array name="network">
+        <item>MTN</item>
+        <item>AIRTEL</item>
+        <item>GLO</item>
+        <item>ETISALAT</item>
+    </string-array>
+
+
+    <string name="cancel">CANCEL</string>
+    <string name="ok">OK</string>
+    <string name="none"></string>
+    <string name="tran_balance_en">BALANCE</string>
+    <string name="tran_sale_en">GOODS/SERVICE</string>
+    <string name="tran_batch_upload_en">UPLOAD</string>
+    <string name="tran_settlement_en">SETTLEMENT</string>
+    <string name="query_card_record_en">EMV CARD RECORD</string>
+    <string name="query_trans_record_en">TRANS RECORD</string>
+    <string name="query_specific_en">QUERY SPECIFIC TRANS</string>
+    <string name="query_trans_detail_en">QUERY TRANS DETAIL</string>
+    <string name="error_pre_process">Preprocess Failed</string>
+    <string name="error_amount_zero">transaction terminated,please use other interface</string>
+
+    <string name="error_amount_over_limit">AMOUNT OVER LIMIT</string>
+    <string name="error_comm">SOCKET ERROR</string>
+    <string name="error_ic">IC ERROR</string>
+    <string name="error_init_ic">INIT IC DEVICE ERROR</string>
+    <string name="error_open_ic">OPEN IC DEVICE ERROR</string>
+    <string name="error_no_trans_in_card">NO TRANS IN CARD</string>
+    <string name="error_not_support">NOT SUPPORT</string>
+    <string name="error_trans_empty">NO TRANS</string>
+    <string name="error_trans_full">TRANS FULL</string>
+    <string name="error_trans_not_found">ORIGINAL TRANS NOT FOUND</string>
+    <string name="error_settle_first">PLEASE SETTLE FIRST</string>
+    <string name="error_unknown">UNKNOWN ERROR</string>
+    <string name="error_expiry_card">EXPIRED CARD</string>
+    <string name="error_app_blocked">APP LOCKED</string>
+    <string name="error_card_blocked">CARD LOCKED</string>
+    <string name="error_no_app">APP SELECT ERROR</string>
+    <string name="error_not_accepted">NOT ACCEPTED</string>
+    <string name="error_pin_timeout">PIN TIMEOUT</string>
+    <string name="error_pinpad">PINPAD ERROR</string>
+    <string name="error_read_ic">IC ERROR</string>
+    <string name="error_user_cancelled">USER CANCELLED</string>
+    <string name="error_input_timeout">INPUT TIMEOUT</string>
+    <string name="error_other_card">IC ERROR</string>
+    <string name="error_more_card">HAVE MORE CARD</string>
+    <string name="response_00">TRANS ACCEPTED</string>
+
+    <!-- tag for print -->
+    <string name="trans_receipt_title">POS SLIP</string>
+    <string name="total_receipt_title">TOTAL REPORT</string>
+    <string name="detail_receipt_title">DETAIL REPORT</string>
+    <string name="settle_receipt_title">SETTLE</string>
+    <string name="merchant_name_tag">MERCHANT:</string>
+    <string name="mid_tag">MID:</string>
+    <string name="tid_tag">TID:</string>
+    <string name="pan_tag">CARD:</string>
+    <string name="trans_type_tag">TRANS TYPE:</string>
+    <string name="exp_date_tag">EXP:</string>
+    <string name="batch_no_tag">BATCH:</string>
+    <string name="ticket_tag">TICKET:</string>
+    <string name="auth_no_tag">AUTH CODE:</string>
+    <string name="date_tag">DATE:</string>
+    <string name="rrn_tag">RRN:</string>
+    <string name="amount_tag">AMOUNT:</string>
+    <string name="tac_tag">TAC:</string>
+    <string name="signature_tag">SIGNATURE:</string>
+
+
+    <string-array name="account_type">
+        <item>SELECT</item>
+        <item>SAVINGS</item>
+        <item>CURRENT</item>
+        <item>CREDIT</item>
+    </string-array>
+
+    <string name="action_bluetooth">Printer Setting</string>
+    <string name="action_mpos">MPOS Setting</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">Scanning Device&#8230;</string>
+    <string name="select_device">Select the connected device</string>
+    <string name="none_paired">No matching devices</string>
+    <string name="none_found">No device found</string>
+    <string name="title_paired_devices">Match equipment</string>
+    <string name="title_other_devices">Other useful equipment</string>
+    <string name="button_scan">Scanning device</string>
+
+    <!--  Message -->
+    <string name="msg_state">Input Error!</string>
+    <string name="empty1">Input is empty, in the text box to enter the content to be converted &#8230;</string>
+    <string name="empty">Input is empty</string>
+    <string name="not_connected">Please connect a Bluetooth printer</string>
+    <string name="bt_not_enabled_leaving">Bluetooth does not start, quit the program</string>
+    <string name="title_connecting">connecting…</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">Is not connected</string>
+    <string name="Connecting">It is connected to a Bluetooth printer</string>
+    <string name="msg_statev1">Without a picture</string>
+    <string name="strLang">en</string>
+    <string name="camer">No pictures</string>
+    <string name="msg_error">Input errors, please check!</string>
+
+
+    <!--main_activity zj.com-->
+    <string name="connect">Search for and connect a Bluetooth printer</string>
+    <string name="txt_content">&quot;&quot;</string>
+    <string name="choose_paper_width">Paper width:</string>
+    <string name="width1">58mm</string>
+    <string name="width2">80mm</string>
+    <string name="printhex">HEX</string>
+    <string name="btnSend">Send Data</string>
+    <string name="btn_test">Print Test</string>
+    <string name="btn_prtbmp">Print Picture</string>
+    <string name="printpicture">Graphical Print</string>
+    <string name="chosecommand">Please select instruction</string>
+    <string name="btnClose">Close</string>
+    <string name="contentdescription"></string>
+    <string name="btn_prttable">Print Form</string>
+    <string name="Smallticketprinting">Small Ticket Printing</string>
+    <string name="btn_prtcode">Print 1D/2D Codebar</string>
+    <string name="btn_scqr">Generate QR Code Print</string>
+    <string name="btn_dyca">Turn on the camera</string>
+    <string name="input">Please enter a print!</string>
+    <string name="choose_printcoding"></string>
+    <string name="big5">BIG5</string>
+    <string name="thai">Thai</string>
+    <string name="kor">Korean</string>
+    <string name="gbk12">Simplified</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="code">accessis4life</string>
+    <string name="do_login">doLogin</string>
+    <string name="get_json">getJSON</string>
+    <string name="get_merchant_price_setup">getMerchantPriceSetup</string>
+    <string name="insert_transaction">insertTransaction</string>
+    <string name="update_transaction">updateTransaction</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>Select</item>
+        <item>AEDC</item>
+        <item>JEDC</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="exit_question">Are you sure you want to exit the application?</string>
+
+
+    <string name="hint_dob">Enter Age</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_gender">I am</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="btn_sign_up">Register !!</string>
+    <string name="err_msg_name">Please enter a Name</string>
+    <string name="err_msg_required">Valid Input Required</string>
+    <string name="err_msg_email">Please enter a Valid Email</string>
+    <string name="err_msg_password">Enter a Password</string>
+    <string name="err_msg_dob">Enter a valid D.O.B</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_link_fpw">Forgot your Password ?</string>
+    <string name="btn_link_login">Already have an account Login !!</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_forgot">Forgot Password</string>
+    <string name="title_activity_calculator">Calculator</string>
+
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_expandable_list">ExpandableListActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="delete">DELETE</string>
+    <string name="my_cart">My Cart</string>
+    <string name="title_activity_reports__home">Reports Home</string>
+
+
+
+
+</resources>

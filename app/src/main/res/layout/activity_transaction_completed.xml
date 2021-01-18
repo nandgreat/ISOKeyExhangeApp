@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    >
+
+
+
+
+
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/t_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaction Status"
+        android:textSize="20dp"
+        android:paddingBottom="10dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="105dp" />
+    <TextView
+        android:textAlignment="center"
+        android:layout_below="@+id/t_status"
+        android:paddingBottom="10dp"
+        android:id="@+id/cardname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:textAlignment="center"
+        android:layout_below="@+id/cardname"
+        android:paddingBottom="10dp"
+        android:id="@+id/paymentfor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:textAlignment="center"
+        android:layout_below="@+id/paymentfor"
+        android:paddingBottom="10dp"
+        android:id="@+id/ledger_bal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:textAlignment="center"
+        android:layout_below="@+id/ledger_bal"
+        android:id="@+id/avail_bal"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/printStatus"
+        android:layout_below="@+id/avail_bal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/print_status"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/printStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1">
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/done"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BACK"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                style="@style/Widget.AppCompat.Button.Small"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1">
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/print"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Print"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:visibility="gone"
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                style="@style/Widget.AppCompat.Button.Small"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

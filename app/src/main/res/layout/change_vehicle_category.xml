@@ -1,0 +1,215 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/topView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#F3F6FB"
+    tools:context="com.mpos.newthree.activity.Login_Activity"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <include layout="@layout/include_progress_overlay"/>
+        <RelativeLayout
+            android:id="@+id/imgRel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="200dp"
+                    android:layout_height="140dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:layout_marginEnd="@dimen/activity_margin_half"
+                    android:layout_marginRight="@dimen/activity_margin_half"
+                    android:background="@drawable/oysams" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:id="@+id/mainLayout"
+            android:orientation="vertical"
+            android:layout_below="@id/imgRel"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <LinearLayout
+                android:id="@+id/email_login_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/loginLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Change Vehicle Category"
+                    android:layout_gravity="center"
+                    />
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/cardview"
+
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+
+                        >
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:id="@+id/plateno"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:hint="Plate no"
+                                android:inputType="text"
+                                android:maxLines="1"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+
+                                android:singleLine="true" />
+
+
+                        </android.support.design.widget.TextInputLayout>
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content">
+
+                            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                                android:id="@+id/category"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+
+                                android:hint="Select category"
+
+
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+
+                                />
+
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:id="@+id/make"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:hint="make no"
+                                android:inputType="text"
+                                android:maxLines="1"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+
+                                android:singleLine="true" />
+
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:id="@+id/chasis"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:hint="Chasis no"
+                                android:inputType="text"
+                                android:maxLines="1"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+
+                                android:singleLine="true" />
+
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+
+                            <EditText
+                                android:id="@+id/password"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:hint="Account Password"
+                                android:inputType="textPassword"
+                                android:maxLines="1"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+
+                                android:singleLine="true" />
+
+
+                        </android.support.design.widget.TextInputLayout>
+
+
+
+                        <Button
+                            android:id="@+id/email_sign_in_button"
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:text="Change"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

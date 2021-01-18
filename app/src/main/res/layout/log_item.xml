@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@color/white"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="5dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="DRIVER NAME :"
+                            android:textColor="@color/primaryText"
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/tv_desc"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text=""
+                            android:textColor="@color/secondaryText"
+                            />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="PLATE NO :"
+                            android:textColor="@color/primaryText"
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/tv_amt"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text=""
+                            android:textColor="@color/secondaryText"
+                            />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="DATE :"
+                            android:textColor="@color/primaryText"
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/tv_date"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text=""
+                            android:textColor="@color/secondaryText"
+                            />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="TRANS ID :"
+                            android:textColor="@color/primaryText"
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/tv_pin"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text=""
+                            android:textColor="@color/secondaryText"
+                            />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="AMOUNT:"
+                            android:textColor="@color/primaryText"
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/amount"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text=""
+                            android:textColor="@color/secondaryText"
+                            />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="DRIVER ID:"
+                            android:textColor="@color/primaryText"
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/driver"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text=""
+                            android:textColor="@color/secondaryText"
+                            />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="TRANS STATUS:"
+                            android:textColor="@color/primaryText"
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/transtate"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text=""
+                            android:textColor="@color/secondaryText"
+                            />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1">
+                        <Button
+                            android:id="@+id/print"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="PRINT"
+                            android:background="@color/coloraccent2"
+                            />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+            <!--<View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <Button
+                    android:text="Print"
+                    android:id="@+id/btn_print"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </LinearLayout>-->
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
